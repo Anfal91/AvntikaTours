@@ -9,6 +9,10 @@
  *{
     scroll-behavior: smooth;
  }
+  body a{
+    text-decoration: none;
+    color: black;
+ }
  a.btn{
     cursor: pointer;
  }
@@ -26,6 +30,13 @@
  .testimonialSlider{
     overflow: visible; text-align: center; margin-left:50px
  }
+
+ .l_blog_item {
+    box-shadow: 0px 10px 15px 0px rgba(19, 24, 131, 0.05);
+    border-radius: 5px;
+    transition: all 300ms linear 0s;
+    padding: 15px 20px;
+}
  /* Removes the clear button from date inputs */
 input[type="date"]::-webkit-clear-button {
 display: none;
